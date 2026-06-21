@@ -1,8 +1,8 @@
-# ✅ To-Do List
+# To-Do List
 
 Application de liste de tâches interactive développée en **JavaScript vanilla**, permettant d'ajouter, terminer et supprimer des tâches facilement.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - Ajout de nouvelles tâches
 - Détection des doublons (empêche d'ajouter deux fois la même tâche)
@@ -10,13 +10,13 @@ Application de liste de tâches interactive développée en **JavaScript vanilla
 - Suppression d'une tâche
 - Messages d'information dynamiques (champ vide, tâche déjà existante)
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **HTML5** — structure de l'interface
 - **CSS3** — mise en forme et design
 - **JavaScript** — logique de gestion des tâches et manipulation du DOM (sans framework)
 
-## 🚀 Utilisation
+##  Utilisation
 
 1. Clonez le dépôt :
    ```
@@ -25,14 +25,14 @@ Application de liste de tâches interactive développée en **JavaScript vanilla
 2. Ouvrez le fichier `To-Do List.html` dans votre navigateur.
 3. Ajoutez vos tâches et gérez votre liste au quotidien.
 
-## 📌 Concepts mis en pratique
+##  Concepts mis en pratique
 
 - Création dynamique d'éléments DOM (`createElement`, `appendChild`)
 - Gestion d'événements (`addEventListener`)
 - Logique de détection de doublons
 - Gestion d'état d'une liste évolutive
 
-## 👤 Auteur
+##  Auteur
 
 **Landé Souleymane OUATTARA**
 Étudiant en Licence 2 — Digitalisation des Services
