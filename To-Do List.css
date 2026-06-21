@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        0.25turn,
+        #350aa0, 
+        #9a0971,
+        #0f0aa4  
+        );
+    margin-top: 80px;
+}
+.todolist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: rgba(214, 105, 16, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    min-width: 30px;
+    border: 1px solid rgb(221, 222, 237);
+}
+.titreInput{
+    background: rgba(192, 202, 196, 0.3) ;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(221, 222, 237);
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.titre{
+    margin-bottom: 15px;
+}
+.spaceTask{
+    border: 1px solid rgb(221, 222, 237);
+    background: rgba(192, 202, 196, 0.3) ;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: none;
+}
+.spaceFinishTask{
+    border: 1px solid rgb(221, 222, 237);
+    background: rgba(192, 202, 196, 0.3) ;
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;  
+}
+.finishTask{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(221, 222, 237);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s; 
+    text-decoration:line-through;
+    color: aliceblue;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS';
+    transform: scale(1);
+}
+.finishTask:hover{
+    background: rgb(215, 8, 8);
+    transform: scale(1.06);
+}
+h3{
+    color: rgb(237, 245, 4);
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Ink Free";
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+h1{
+    /* margin-top: -45px; */
+    font-family: arial;
+    color: white;
+    font-weight: 800;
+}
+.inputButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    height: 45px;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.add{
+    height: 45px;
+    width: 20%;
+    min-width: 90px;
+    border-radius: 5px;
+    border: 0;
+    margin: 5px;
+    font-family: arial ;
+    font-size: 1.3em;
+    color: aliceblue;
+    transition: 0.4s;
+    font-weight: bold;
+    background: rgba(63, 77, 235, 0.7);
+    
+}
+.add:hover{
+    background: rgb(59, 73, 224);
+}
+.baliseTask{
+    width: 100%;
+    border: 1px solid rgb(221, 222, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 3px;
+    transition: 0.4s;
+}
+p{
+    width: 100%;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: 'Trebuchet MS';
+}
+.baliseTask:hover{
+    transform: scale(1);
+    background: rgba(71, 8, 229, 0.8) ;
+
+}
+.spaceTask:hover .baliseTask:not(:hover) {
+    transform: scale(0.96);
+}
+.baliseDel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 35px;
+    min-width: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: rgba(51, 247, 130, 1);
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.baliseDiv:hover{
+    background: rgb(71, 196, 40);
+}
+.message{
+    background: rgb(221, 222, 237, 0.5);
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(221, 222, 237);
+    border-radius: 3px;
+    transition: 0.6s;
+    display: none;
+}
+h4{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(95, 1, 1);  
+    text-align: center;
+    margin-top: 25px;
+}
+.img2{
+    width: 30px;
+    border-radius: 5px;
+}
